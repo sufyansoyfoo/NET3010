@@ -4,7 +4,25 @@
     <meta charset="UTF-8">
     <title>Shipping Cost</title>
     <script>
-        function calculateshipping
+        function calculateshipping() {
+
+            let shipping = 0;
+
+            switch(country) {
+                case "Canada":
+                    shipping = 1.30;
+                    break;
+                case "USA":
+                    shipping = 3.30;
+                    break;
+                case "UK":
+                    shipping = 5.30;
+                    break;
+                default:
+                    shipping = 10.00;
+                    break;
+            }
+        }
     </script>
 </head>
 <body>
