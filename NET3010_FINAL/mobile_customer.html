@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mobile - TechHaven (Customer)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="logo">TechHaven</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="laptops_customer.html">Laptops & Desktops</a></li>
+        <li><a href="mobile_customer.html">Mobile</a></li>
+        <li><a href="smartwatches_customer.html">Smartwatches</a></li>
+        <li><a href="favourites_customer.html">Favourites</a></li>
+        <li><a href="logout.html">Logout</a></li>
+        <li class="cart-button"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <a href="portal.html" class="back-arrow">
+    <i class="fas fa-arrow-left"></i> Back to Portal
+  </a>
+  
+  <!-- Shipping & Heading -->
+  <main class="product-page">
+
+    <!-- Shared Country Selector -->
+    <div style="display: flex; justify-content: flex-end; align-items: center; gap: 1em; padding: 1em 2em 0;">
+      <label for="country">Select Country:</label>
+      <select id="country">
+        <option value="">--Choose--</option>
+        <option value="US">USA</option>
+        <option value="CA">Canada</option>
+        <option value="UK">United Kingdom</option>
+      </select>
+    </div>
+
+    <!-- Shared Shipping Info -->
+    <div style="text-align: right; padding: 0 2em 1em;">
+      <p><strong>Estimated Shipping:</strong> --</p>
+    </div>
+
+    <h2>Mobile Devices</h2>
+    <div class="product-grid">
+
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="Back_of_the_iPhone_13_Pro.jpg" alt="iPhone 13 Pro">
+        <h4>iPhone 13 Pro</h4>
+        <p>$999.00</p>
+        <button>❤️ Add to Favourites</button>
+        <small class="image-credit">
+          Image: <em>iPhone 13 Pro</em> by
+          <a href="https://commons.wikimedia.org/wiki/File:Back_of_the_iPhone_13_Pro.jpg" target="_blank">Hajoon0102</a>,
+          licensed under
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+        </small>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="Samsung_Galaxy_S21.jpg" alt="Samsung Galaxy S21">
+        <h4>Samsung Galaxy S21</h4>
+        <p>$849.00</p>
+        <button>❤️ Add to Favourites</button>
+        <small class="image-credit">
+          Image: <em>Samsung Galaxy S21</em> by
+          <a href="https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S21.jpg" target="_blank">בר</a>,
+          licensed under
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+        </small>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="Google_Pixel_6_Sorta_Seafoam_and_8_Rose_rear_bottom-left.jpg" alt="Google Pixel 6 Pro">
+        <h4>Google Pixel 6 Pro</h4>
+        <p>$899.00</p>
+        <button>❤️ Add to Favourites</button>
+        <small class="image-credit">
+          Image: <em>Google Pixel 6 Pro</em> by
+          <a href="https://commons.wikimedia.org/wiki/File:Google_Pixel_6_Sorta_Seafoam_and_8_Rose_rear_bottom-left.jpg" target="_blank">IXTA9839</a>,
+          licensed under
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+        </small>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="OnePlus_9_Pro_back.jpg" alt="OnePlus 9 Pro">
+        <h4>OnePlus 9 Pro</h4>
+        <p>$799.00</p>
+        <button>❤️ Add to Favourites</button>
+        <small class="image-credit">
+          Image: <em>OnePlus 9 Pro</em> by
+          <a href="https://commons.wikimedia.org/wiki/File:OnePlus_9_Pro_back.jpg" target="_blank">金琛玮</a>,
+          licensed under
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+        </small>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-info">
+        <h4>Contact Us</h4>
+        <p><strong>Email:</strong> support@techhaven.com</p>
+        <p><strong>Phone:</strong> +1 (800) 123-4567</p>
+        <p><strong>Address:</strong> 123 Innovation Drive, Ottawa, ON, Canada</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Shop More</h4>
+        <ul>
+          <li><a href="laptops_customer.html">Laptops & Desktops</a></li>
+          <li><a href="mobile_customer.html">Mobile</a></li>
+          <li><a href="smartwatches_customer.html">Smartwatches</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-socials">
+        <h4>Stay Connected</h4>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 TechHaven. All rights reserved.</p>
+    </div>
+  </footer>
+
+<!-- Script for Cart -->
+  <script src="cart.js"></script>
+</body>
+</html>

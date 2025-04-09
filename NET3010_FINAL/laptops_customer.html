@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Laptops & Desktops - TechHaven (Customer)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">TechHaven</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="laptops_customer.html">Laptops & Desktops</a></li>
+        <li><a href="mobile_customer.html">Mobile</a></li>
+        <li><a href="smartwatches_customer.html">Smartwatches</a></li>
+        <li><a href="favourites_customer.html">Favourites</a></li>
+        <li><a href="logout.html">Logout</a></li>
+        <li class="cart-button"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <a href="portal.html" class="back-arrow">
+    <i class="fas fa-arrow-left"></i> Back to Portal
+  </a>
+  
+  <main class="product-page">
+
+    <!-- Shared Country Selector -->
+    <div style="display: flex; justify-content: flex-end; align-items: center; gap: 1em; padding: 1em 2em 0;">
+      <label for="country">Select Country:</label>
+      <select id="country">
+        <option value="">--Choose--</option>
+        <option value="US">USA</option>
+        <option value="CA">Canada</option>
+        <option value="UK">United Kingdom</option>
+      </select>
+    </div>
+
+    <!-- Shared Shipping Info -->
+    <div style="text-align: right; padding: 0 2em 1em;">
+      <p><strong>Estimated Shipping:</strong> --</p>
+    </div>
+
+    <h2>Laptops & Desktops</h2>
+    <div class="product-grid">
+
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="1624px-DELL_XPS13&XPS15_28_(22320239582).jpg" alt="Dell XPS 13">
+        <h4>Dell XPS 13</h4>
+        <p>$999.99</p>
+        <button>❤️ Add to Favourites</button>
+        <small class="image-credit">
+          Image: <em>DELL XPS13 & XPS15_28</em> by 
+          <a href="https://commons.wikimedia.org/wiki/File:DELL_XPS13%26XPS15_28_%2822320239582%29.jpg" target="_blank">TAKA@P.P.R.S</a>,
+          licensed under 
+          <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC BY-SA 2.0</a>
+        </small>
+      <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="A_2021_14-inch_Silver_MacBook_Pro.jpg" alt="MacBook Pro 14">
+        <h4>MacBook Pro 14</h4>
+        <p>$1,899.00</p>
+        <button>❤️ Add to Favourites</button>
+        <small class="image-credit">
+          Image: <em>A 2021 14-inch Silver MacBook Pro</em> by
+          <a href="https://commons.wikimedia.org/wiki/File:A_2021_14-inch_Silver_MacBook_Pro.jpg" target="_blank">Oops4321</a>,
+          licensed under
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+        </small>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="Lenovo_ThinkPad_X1_Ultrabook_(Nov_16,_2012).png" alt="Lenovo ThinkPad X1 Carbon">
+        <h4>Lenovo ThinkPad X1 Carbon</h4>
+        <p>$1,299.00</p>
+        <button>❤️ Add to Favourites</button>
+        <small class="image-credit">
+          Image: <em>Lenovo ThinkPad X1 Ultrabook</em> by
+          <a href="https://commons.wikimedia.org/wiki/File:Lenovo_ThinkPad_X1_Ultrabook_%28Nov_16%2C_2012%29.png" target="_blank">Lenovo Group Ltd.</a>,
+          licensed under
+          <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC BY-SA 2.0</a>
+        </small>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="Apple-iMac-M3-Photoshop-231030_big.jpg.large.jpg" alt="iMac 24-inch M3 (2024)">
+        <h4>iMac 24&quot; M3 (2024)</h4>
+        <p>$1,599.00</p>
+        <button>❤️ Add to Favourites</button>
+        <small class="image-credit">
+          Image: <em>24-inch iMac with M3</em> by
+          <a href="https://www.apple.com/newsroom/2023/10/apple-supercharges-24-inch-imac-with-new-m3-chip/" target="_blank">Apple Inc.</a>
+        </small>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-info">
+        <h4>Contact Us</h4>
+        <p><strong>Email:</strong> support@techhaven.com</p>
+        <p><strong>Phone:</strong> +1 (800) 123-4567</p>
+        <p><strong>Address:</strong> 123 Innovation Drive, Ottawa, ON, Canada</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Shop More</h4>
+        <ul>
+          <li><a href="laptops_customer.html">Laptops & Desktops</a></li>
+          <li><a href="mobile_customer.html">Mobile</a></li>
+          <li><a href="smartwatches_customer.html">Smartwatches</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-socials">
+        <h4>Stay Connected</h4>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 TechHaven. All rights reserved.</p>
+    </div>
+  </footer>
+
+<!-- Script for Cart -->
+  <script src="cart.js"></script>
+</body>
+</html>

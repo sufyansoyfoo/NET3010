@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart - TechHaven</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">TechHaven</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="laptops_public.html">Laptops & Desktops</a></li>
+        <li><a href="mobile_public.html">Mobile</a></li>
+        <li><a href="smartwatches_public.html">Smartwatches</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="customer_registration.html">Customer Registration</a></li>
+        <li><a href="admin_login.html">Admin Login</a></li>
+        <li class="cart-button"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+  
+      </ul>
+    </nav>
+  </header>
+  <a href="index.html" class="back-arrow">
+    <i class="fas fa-arrow-left"></i> Back to Home
+  </a>
+
+  <section class="cart-section">
+    <h2>Your Shopping Cart</h2>
+
+    <div id="cart-items"></div>
+    <div class="cart-total">
+      <h3 id="cart-total">Total: $0.00</h3>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <!-- Script for Cart -->
+  <script src="cart.js"></script>
+</body>
+</html>
